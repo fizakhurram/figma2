@@ -416,6 +416,7 @@ body {
         margin: 50px auto;
         position: relative;
         padding-left: 20px;
+        padding-top: 60px;
     }
 
     .mobilephone img {
@@ -428,7 +429,7 @@ body {
         z-index: 500;
         align-items: center;
         /* margin-left: 150px; */
-        top: 80%;
+        top: 70%;
         left: 40%;
         transform: translate(-50%, -60%);
         display: block;
@@ -577,9 +578,10 @@ body {
 
     .mobilephone img {
         height: 500px;
-        padding-left: 80px;
         display: block;
-        
+        margin-left: 25%;
+        padding-bottom: 60px;
+
 
     }
 }
