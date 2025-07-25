@@ -216,7 +216,7 @@ body {
     text-align: center;
 }
 
-.circle{
+.circle {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -225,26 +225,33 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     padding-top: 50px;
-    
+
 }
-.div-2{
-    height: 300px;
-    width: 300px;
+
+.div-2 {
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     background-color: #75BF7A;
-    padding-top: 0px;
+    margin: 50px auto;
+    position: relative;
+    padding-left: 20px;
 }
-.div-1{
+
+.div-1 {
     width: 300px;
     text-align: right;
     height: 300px;
+
 }
-.div-3{
+
+.div-3 {
     width: 300px;
     height: 350px;
     padding-top: 50px;
 }
-.num1{
+
+.num1 {
     position: relative;
     top: 35px;
     right: 15px;
@@ -253,25 +260,8 @@ body {
     font-weight: bold;
 
 }
-.num2{
-    position: relative;
-    top: 35px;
-    left: 15px;
-    font-size: 25px;
-    color: #75BF7A;
-    font-weight: bold;
 
-}
-.num3{
-    position: relative;
-    top: 35px;
-    right: 15px;
-    font-size: 25px;
-    color: #75BF7A;
-    font-weight: bold;
-
-}
-.num4{
+.num2 {
     position: relative;
     top: 35px;
     left: 15px;
@@ -281,22 +271,58 @@ body {
 
 }
 
-.circle p{
+.num3 {
+    position: relative;
+    top: 35px;
+    right: 15px;
+    font-size: 25px;
+    color: #75BF7A;
+    font-weight: bold;
+
+}
+
+.num4 {
+    position: relative;
+    top: 35px;
+    left: 15px;
+    font-size: 25px;
+    color: #75BF7A;
+    font-weight: bold;
+
+}
+
+.circle p {
     color: #9E9DA2;
     font-size: 15px;
 }
-.circle img{
+
+.circle img {
     height: 40px;
 }
-.circle_res{
+
+.circle_res {
     display: none;
 }
-.circleone img{
-    height: 400px;
+
+.circleone img {
+    height: 450px;
     margin-left: 40px;
-    margin-bottom: 100px;
+    margin-top: 0px;
     z-index: -1;
-    
+    position: absolute;
+    /* top: 950px;
+    right: 680px; */
+    z-index: 500;
+    align-items: center;
+    /* margin-left: 150px; */
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -60%);
+
+}
+
+.mobilephone img {
+    display: none;
 }
 
 
@@ -367,10 +393,12 @@ body {
         border-radius: 3px;
         font-size: 20px;
     }
-    .circle{
+
+    .circle {
         display: none;
     }
-    .circle_res{
+
+    /* .circle_res{
         display: block;
         margin: 0 auto;
         height: 800px;
@@ -379,27 +407,31 @@ body {
         position: relative;
         justify-content: center;
     
-    }
-    .circle2{
-        background-color: #75BF7A;
-        height: 400px;
-        width: 400px;
+    } */
+    .circle2 {
+        height: 350px;
+        width: 350px;
         border-radius: 50%;
-        margin: 0 auto;
-        display: block;
         background-color: #75BF7A;
-        margin-top: 60px;
-        align-items: center;
-        
+        margin: 50px auto;
+        position: relative;
+        padding-left: 20px;
     }
+
     .mobilephone img {
-        height: 500px;
+        height: 450px;
+        margin-left: 40px;
+        z-index: -1;
         position: absolute;
-        top: 50px;
-        left: 270px;
-        display: block;
+        /* top: 950px;
+    right: 680px; */
+        z-index: 500;
         align-items: center;
-    
+        /* margin-left: 150px; */
+        top: 80%;
+        left: 40%;
+        transform: translate(-50%, -60%);
+        display: block;
     }
 }
 
@@ -513,10 +545,12 @@ body {
         border-radius: 3px;
         font-size: 20px;
     }
-    .circle{
+
+    .circle {
         display: none;
     }
-    .circle_res{
+
+    /* .circle_res{
         display: block;
         margin: 0 auto;
         height: 800px;
@@ -526,8 +560,8 @@ body {
         justify-content: center;
         
     
-    }
-    .circle2{
+    } */
+    .circle2 {
         background-color: #75BF7A;
         height: 400px;
         width: 400px;
@@ -537,15 +571,17 @@ body {
         background-color: #75BF7A;
         margin-top: 60px;
         align-items: center;
-        
+        padding-right: 40px;
+
     }
+
     .mobilephone img {
         height: 500px;
         position: absolute;
-        top: 50px;
-        left: 150px;
+        top: 50%;
+        left: 50%;
         display: block;
         align-items: center;
-    
+
     }
 }
