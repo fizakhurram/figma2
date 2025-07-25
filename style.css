@@ -324,7 +324,124 @@ body {
 .mobilephone img {
     display: none;
 }
-
+.secondlast {
+    margin: 0 auto;
+    height: 100px;
+    width: 400px;
+    padding-left: 60px;
+}
+.secondlast h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.secondlast span{
+    color: #75BF7A;
+}
+.benefitone{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    height: 200px;
+    width: 1000px;
+    /* margin: 0 auto; */
+    border-radius: 5px;
+    margin-right: 40px;
+}
+.benefitone img{
+    height: 200px;
+}
+.text{
+    width: 300px;
+    padding-top: 50px;
+}
+.text h1{
+    font-size: 65px;
+    color: #75BF7A;
+}
+.text p{
+    font-size: 20px;
+    color: #9E9DA2;
+}
+.number1{
+    display: flex;
+}
+.text h6{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.total{
+    background-image: url(images/Group\ 3693.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+.benefitwo{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    height: 200px;
+    width: 1000px;
+    /* margin: 0 auto; */
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.benefitwo img{
+    height: 200px;
+}
+.text{
+    width: 300px;
+    padding-top: 50px;
+}
+.text h1{
+    font-size: 65px;
+    color: #75BF7A;
+}
+.text p{
+    font-size: 20px;
+    color: #9E9DA2;
+}
+.number2{
+    display: flex;
+}
+.text h6{
+    font-size: 25px;
+    padding-top: 20px;
+}
+.benefithree{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-around;
+    height: 200px;
+    width: 1000px;
+    /* margin: 0 auto; */
+    border-radius: 5px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.benefithree img{
+    height: 200px;
+}
+.text{
+    width: 300px;
+    padding-top: 50px;
+}
+.text h1{
+    font-size: 65px;
+    color: #75BF7A;
+}
+.text p{
+    font-size: 20px;
+    color: #9E9DA2;
+}
+.number3{
+    display: flex;
+}
+.text h6{
+    font-size: 25px;
+    padding-top: 20px;
+}
 
 
 
