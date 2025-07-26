@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    transition: 0.7s;
 }
 
 .main {
@@ -242,52 +243,54 @@ body {
     width: 300px;
     text-align: right;
     height: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .div-3 {
     width: 300px;
     height: 350px;
-    padding-top: 50px;
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .num1 {
     position: relative;
-    top: 35px;
+    top: 30px;
     right: 15px;
-    font-size: 25px;
+    font-size: 20px;
     color: #75BF7A;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
 .num2 {
     position: relative;
-    top: 35px;
+    top: 30px;
     left: 15px;
-    font-size: 25px;
+    font-size: 20px;
     color: #75BF7A;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
 .num3 {
     position: relative;
-    top: 35px;
+    top: 30px;
     right: 15px;
-    font-size: 25px;
+    font-size: 20px;
     color: #75BF7A;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
 .num4 {
     position: relative;
-    top: 35px;
+    top: 30px;
     left: 15px;
-    font-size: 25px;
+    font-size: 20px;
     color: #75BF7A;
-    font-weight: bold;
+    font-weight: 600;
 
 }
 
@@ -342,10 +345,10 @@ body {
     background-color: #FFFFFF;
     justify-content: space-around;
     height: 200px;
-    width: 1000px;
+    width: 800px;
     /* margin: 0 auto; */
     border-radius: 5px;
-    margin-right: 40px;
+     margin-left: 15%; 
 }
 
 .benefitone img {
@@ -354,7 +357,7 @@ body {
 
 .text {
     width: 300px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .text h1 {
@@ -379,8 +382,9 @@ body {
 .total {
     background-image: url(images/Group\ 3693.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     background-size: 300px;
+    margin: 0 auto;
 }
 
 .benefitwo {
@@ -388,10 +392,10 @@ body {
     background-color: #FFFFFF;
     justify-content: space-around;
     height: 200px;
-    width: 1000px;
+    width: 800px;
     /* margin: 0 auto; */
     border-radius: 5px;
-    margin-left: 80px;
+     margin-left: 20%;
     margin-top: 40px;
 }
 
@@ -399,59 +403,27 @@ body {
     height: 200px;
 }
 
-.text {
-    width: 300px;
-    padding-top: 50px;
-}
-
-.text h1 {
-    font-size: 65px;
-    color: #75BF7A;
-}
-
-.text p {
-    font-size: 20px;
-    color: #9E9DA2;
-}
 
 .number2 {
     display: flex;
 }
 
-.text h6 {
-    font-size: 25px;
-    padding-top: 20px;
-}
+
 
 .benefithree {
     display: flex;
     background-color: #FFFFFF;
     justify-content: space-around;
     height: 200px;
-    width: 1000px;
+    width: 800px;
     /* margin: 0 auto; */
     border-radius: 5px;
-    margin-right: 40px;
-    margin-top: 40px;
+    margin-left: 15%;
+    margin-top: 40px; 
 }
 
 .benefithree img {
     height: 200px;
-}
-
-.text {
-    width: 300px;
-    padding-top: 50px;
-}
-
-.text h1 {
-    font-size: 65px;
-    color: #75BF7A;
-}
-
-.text p {
-    font-size: 20px;
-    color: #9E9DA2;
 }
 
 .number3 {
@@ -461,6 +433,11 @@ body {
 .text h6 {
     font-size: 25px;
     padding-top: 20px;
+}
+
+.res-parts{
+    display: none;
+
 }
 
 
@@ -482,6 +459,7 @@ body {
     .section1 {
         justify-content: center;
         padding-top: 20px;
+        margin: 0 auto;
     }
 
     .text_side {
@@ -494,7 +472,7 @@ body {
 
     .form2 {
         height: 280px;
-        width: 400px;
+        width: 300px;
         align-items: center;
         margin: 0 auto;
         display: block;
@@ -569,7 +547,7 @@ body {
 
     .total {
         background-size: 300px;
-        background-position: left;
+        background-position: center;
     }
 
     .benefitone {
@@ -577,15 +555,15 @@ body {
         background-color: #FFFFFF;
         justify-content: space-around;
         height: 200px;
-        width: 800px;
+        width: 700px;
         /* margin: 0 auto; */
         border-radius: 5px;
         margin-right: 40px;
-        margin-left: 30px;
+        margin-left: 10%;
     }
 
     .benefitone img {
-        height: 150px;
+        height: 200px;
     }
 
     .text {
@@ -617,16 +595,16 @@ body {
         background-color: #FFFFFF;
         justify-content: space-around;
         height: 200px;
-        width: 800px;
+        width: 700px;
         /* margin: 0 auto; */
         border-radius: 5px;
         margin-left: 40px;
-        margin-right: 20px;
+        margin-right: 10%;
         margin-top: 40px;
     }
 
     .benefitwo img {
-        height: 150px;
+        height: 200px;
     }
 
     .text {
@@ -658,16 +636,15 @@ body {
         background-color: #FFFFFF;
         justify-content: space-around;
         height: 200px;
-        width: 800px;
+        width: 700px;
         /* margin: 0 auto; */
         border-radius: 5px;
-        margin-right: 40px;
-        margin-left: 30px;
+        margin-left: 10%;
         margin-top: 40px;
     }
 
     .benefithree img {
-        height: 150px;
+        height: 200px;
     }
 
     .text {
@@ -693,6 +670,11 @@ body {
         font-size: 25px;
         padding-top: 20px;
     }
+    .res-parts{
+        display: none;
+    }
+        
+    
 
 
 
@@ -847,7 +829,7 @@ body {
     }
 
     .secondlast {
-        margin-top: 40px;
+        margin-top: 50px;
     }
 
     .benefitone {
@@ -861,4 +843,26 @@ body {
     .benefithree {
         display: none;
     }
+    .res-parts{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+    }
+    .part-1, .part-2 , .part-3 , .part-4{
+        height: 200px;
+        width: 300px;
+        text-align: center;
+        margin-top: 15px;
+        margin: 0 auto;
+    }
+    .part-1 h5, .part-2 h5 , .part-3 h5 , .part-4 h5{
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .res-parts p{
+        font-size: 20px;
+        color: #9E9DA2;
+    }
+    
+    
 }
