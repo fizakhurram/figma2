@@ -96,7 +96,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding-top: 160px;
+    padding-top: 130px;
     line-height: 1.5em;
 }
 
@@ -310,10 +310,10 @@ body {
 .circleone img {
     height: 400px;
     display: block;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-bottom: 40%;
     position: absolute;
-    right: 15%;
+    right: 20%;
 
 
 
@@ -450,6 +450,9 @@ body {
     .header {
         padding: 1.3rem 5%;
     }
+    .logo img{
+        height: 30px;
+    }
 
     .section1 {
         justify-content: space-around;
@@ -463,7 +466,8 @@ body {
     }
 
     .text_side {
-        padding-top: 150px;
+        padding-top: 10px;
+        height: 400px;
     }
 
     .form1 {
@@ -563,7 +567,7 @@ body {
     }
 
     .benefitone img {
-        height: 200px;
+        height: 0px;
     }
 
     .text {
@@ -604,7 +608,7 @@ body {
     }
 
     .benefitwo img {
-        height: 200px;
+        height: 150px;
     }
 
     .text {
@@ -684,6 +688,12 @@ body {
     .icons {
         display: inline-flex;
     }
+    .logo img{
+        height: 30px;
+    }
+    .header {
+        padding: 1.3rem 5%;
+    }
 
     #check:checked~.icons #menu-icon {
         display: none;
@@ -734,12 +744,12 @@ body {
 
     .section1 {
         justify-content: center;
-        padding-top: 20px;
+        padding-top: 10px;
         flex-wrap: wrap-reverse;
     }
-
-    .text_side {
-        padding-top: 40px;
+    .text_side{
+        height: 400px;
+        padding-top: 10px;
     }
 
     .image_side img {
@@ -808,7 +818,7 @@ body {
     } */
     .circle2 {
         background-color: #75BF7A;
-        height: 400px;
+        height: 350px;
         width: 350px;
         border-radius: 50%;
         margin: 0 auto;
@@ -816,7 +826,7 @@ body {
         background-color: #75BF7A;
         margin-top: 60px;
         align-items: center;
-        padding-right: 30px;
+        padding-right: 40px;
 
     }
 
@@ -827,9 +837,12 @@ body {
         padding-bottom: 60px;
 
     }
+    .benefits{
+        margin-top: 50px;
+    }
 
     .secondlast {
-        margin-top: 50px;
+        margin-top: 90px;
     }
 
     .benefitone {
@@ -852,7 +865,7 @@ body {
         height: 200px;
         width: 300px;
         text-align: center;
-        margin-top: 15px;
+        margin-top: 10px;
         margin: 0 auto;
     }
     .part-1 h5, .part-2 h5 , .part-3 h5 , .part-4 h5{
