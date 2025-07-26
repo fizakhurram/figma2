@@ -29,7 +29,7 @@
 
 body {
     background-color: #F9F9F9;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 #check {
@@ -450,9 +450,6 @@ body {
 /* responsive */
 
 @media only screen and (max-width:992px) and (min-width:786px) {
-    .header {
-        padding: 1.3rem 5%;
-    }
     .logo img{
         height: 30px;
     }
@@ -850,6 +847,8 @@ body {
 
     .secondlast {
         margin-top: 90px;
+        font-size: 15px;
+        width: 300px;
     }
 
     .benefitone {
@@ -867,13 +866,13 @@ body {
         display: flex;
         flex-wrap: wrap;
         padding: 10px 0px;
+        justify-content: center;
     }
     .part-1, .part-2 , .part-3 , .part-4{
         height: 200px;
         width: 300px;
         text-align: center;
         margin-top: 10px;
-        margin: 0 auto;
     }
     .part-1 h5, .part-2 h5 , .part-3 h5 , .part-4 h5{
         font-size: 20px;
